@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/junegunn/shorten"
   gem.license = "MIT"
   gem.summary = %Q{Number shortener}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.description = %Q{Number shortener}
   gem.email = "junegunn.c@gmail.com"
   gem.authors = ["Junegunn Choi"]
   # dependencies defined in Gemfile

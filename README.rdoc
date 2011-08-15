@@ -1,6 +1,24 @@
 = shorten
 
-Description goes here.
+A number shortener.
+
+== Example
+
+  # Default: Shorten::BASE62
+  12345.shorten
+  12345.shorten.unshorten
+
+  # Using Shorten::BASE36 for case-insensitivity
+  12345.shorten(Shorten::BASE36)
+  12345.shorten(Shorten::BASE36).unshorten(Shorten::BASE36)
+
+  # Using an arbitrary sequence of characters for shortening
+  12345.shorten("ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎ")
+
+== TODO
+
+* Negative numbers.
+* Float support.
 
 == Contributing to shorten
  
