@@ -18,6 +18,9 @@ GEM
     rspec-expectations (2.3.0)
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.3.0)
+    simplecov (0.4.2)
+      simplecov-html (~> 0.4.4)
+    simplecov-html (0.4.5)
     yard (0.6.8)
 
 PLATFORMS
@@ -29,4 +32,5 @@ DEPENDENCIES
   jeweler (~> 1.6.4)
   rcov
   rspec (~> 2.3.0)
+  simplecov (>= 0.4.2)
   yard (~> 0.6.0)
