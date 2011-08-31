@@ -1,0 +1,41 @@
+# shorten
+
+A number shortener.
+
+## Example
+
+```ruby
+require 'shorten'
+
+# Default: Shorten::BASE62
+12345.shorten
+12345.shorten.unshorten
+
+# Using Shorten::BASE36 for case-insensitivity
+12345.shorten(Shorten::BASE36)
+12345.shorten(Shorten::BASE36).unshorten(Shorten::BASE36)
+
+# Using an arbitrary sequence of characters for shortening
+12345.shorten("ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎ")
+```
+
+## TODO
+
+* Negative numbers.
+* Float support.
+
+## Contributing to shorten
+ 
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Fork the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+## Copyright
+
+Copyright (c) 2011 Junegunn Choi. See LICENSE.txt for
+further details.
+
